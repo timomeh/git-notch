@@ -1,5 +1,7 @@
 # git-notch
 
+![](https://img.shields.io/vscode-marketplace/v/timomeh.git-notch.svg?style=flat-square&logo=visual-studio-code&label=Marketplace)
+
 _Work in progress._
 
 Better Git tools through the Command Palette without touching the mouse.

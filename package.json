@@ -2,7 +2,7 @@
   "name": "git-notch",
   "displayName": "git-notch",
   "description": "Better git tools through the command palette",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preview": true,
   "scripts": {
     "vscode:prepublish": "webpack --mode production",

@@ -1,6 +1,6 @@
 # git-notch
 
-![](https://img.shields.io/vscode-marketplace/v/timomeh.git-notch.svg?style=flat-square&logo=visual-studio-code&label=Marketplace)
+[![](https://img.shields.io/vscode-marketplace/v/timomeh.git-notch.svg?style=flat-square&logo=visual-studio-code&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=timomeh.git-notch)
 
 _Work in progress._
 

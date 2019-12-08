@@ -4,6 +4,5 @@ src/
 .gitignore
 tsconfig.json
 tslint.json
+package-lock.json
 webpack.config.js
-**/*.map
-**/*.ts

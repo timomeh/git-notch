@@ -8,13 +8,12 @@
     "vscode:prepublish": "webpack --mode production",
     "webpack": "webpack --mode development",
     "dev": "webpack --mode development --watch",
-    "test-compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile",
+    "lint": "tslint -p ./",
+    "pretest": "npm run webpack",
     "test": "node ./out/test/runTest.js"
   },
   "dependencies": {
-    "simple-git": "^1.126.0"
+    "simple-git": "^1.128.0"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",

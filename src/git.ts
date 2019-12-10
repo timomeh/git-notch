@@ -18,3 +18,8 @@ export async function setup() {
 }
 
 export { git }
+
+export async function getFullPath(appendPath: string): Promise<string> {
+  const rootPath = await git.revparse(['--show-toplevel'])
+  return rootPath + '/' + appendPath
+}

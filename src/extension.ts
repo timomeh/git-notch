@@ -18,6 +18,18 @@ export async function activate(context: vscode.ExtensionContext) {
       await cmd.commit()
     })
   )
+
+  subscriptions.push(
+    registerCommand('gitNotch.commit-amend', async () => {
+      await cmd.commit({ amend: true })
+    })
+  )
+
+  subscriptions.push(
+    registerCommand('gitNotch.commit-amend-no-edit', async () => {
+      await cmd.commit({ amend: true, noEdit: true })
+    })
+  )
 }
 
 export function deactivate() {}

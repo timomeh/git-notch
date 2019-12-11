@@ -39,14 +39,28 @@
     "git",
     "git-plus"
   ],
+  "icon": "icon.png",
   "license": "SEE LICENSE IN license",
   "publisher": "timomeh",
   "activationEvents": [
     "onCommand:gitNotch.stage",
-    "onCommand:gitNotch.commit"
+    "onCommand:gitNotch.commit",
+    "onCommand:gitNotch.commit-amend",
+    "onCommand:gitNotch.commit-amend-no-edit"
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Git Notch",
+      "properties": {
+        "gitNotch.commit.verboseCommits": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show unified diff between the HEAD commit and what would be committed at the bottom of the commit message."
+        }
+      }
+    },
     "commands": [
       {
         "command": "gitNotch.stage",
@@ -55,6 +69,14 @@
       {
         "command": "gitNotch.commit",
         "title": "Git Notch: Commit"
+      },
+      {
+        "command": "gitNotch.commit-amend",
+        "title": "Git Notch: Commit Amend"
+      },
+      {
+        "command": "gitNotch.commit-amend-no-edit",
+        "title": "Git Notch: Commit Amend (no edit)"
       }
     ]
   },

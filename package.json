@@ -57,6 +57,16 @@
           "type": "boolean",
           "default": true,
           "description": "Show unified diff between the HEAD commit and what would be committed at the bottom of the commit message."
+        },
+        "gitNotch.commit.showSuccessInformationMessage": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show information message after a successful commit. (Note: Information messages can be dismissed with <ESC>)"
+        },
+        "gitNotch.commit.closeOnSave": {
+          "type": "boolean",
+          "default": false,
+          "description": "Close COMMIT_EDITMSG file directly after saving."
         }
       }
     },

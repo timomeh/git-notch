@@ -11,16 +11,19 @@ Better Git tools through the Command Palette without touching your mouse.
 - **Git Notch: Commit Amend** – Same as _Git Notch: Commit_, but amends the last commit. (Adds staged files to last commit and change the commit message.)
 - **Git Notch: Commit Amend (no edit)** – Amend the commit without changing the commit message. (Adds staged files to the last commit.)
 
-## Command Reference
-
-- `gitNotch.stage`
-- `gitNotch.commit`
-- `gitNotch.commit-amend`
-- `gitNotch.commit-amend-no-edit`
-
 ## Keybindings
 
 This extension doesn't define any keybindings. I think keyboard shortcuts are a personal preference. Also it's hard to find comfortable shortcuts which won't collide with VS Code's own shortcuts or shortcuts from popular extensions.
+
+## Usage Tips
+
+### Commit: Information Messages
+
+After a successful commit, an information message will pop up. You can dismiss it with <kbd>ESC</kbd>. You can also disable them in your settings. You will still see a short "git ✓" info in your status bar, informing you about the successful commit.
+
+### Commit: Auto Close on Save
+
+You can choose to immediately close and execute the commit if you save the commit file. This is disabled by default to prevent erroneous commits when using VSCode's Auto Save setting, but can be enabled in your settings.
 
 ## Background
 

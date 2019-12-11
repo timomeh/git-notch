@@ -1,6 +1,6 @@
 # git-notch
 
-[View on GitHub](https://github.com/timomeh/git-notch) | [View on Marketplace](https://marketplace.visualstudio.com/items?itemName=timomeh.git-notch)**
+**[View on GitHub](https://github.com/timomeh/git-notch) | [View on Marketplace](https://marketplace.visualstudio.com/items?itemName=timomeh.git-notch)**
 
 Better Git tools through the Command Palette without touching your mouse.
 
